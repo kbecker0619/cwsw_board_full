@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.gnu.exe.debug.907018451">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.exe.debug.907018451" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="exe" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.907018451" name="Debug" parent="cdt.managedbuild.config.gnu.exe.debug" postannouncebuildStep="Create binary file to detect changes to build artifacts." postbuildStep="objcopy -O binary &quot;${ProjName}.${BuildArtifactFileExt}&quot; &quot;${ProjName}.bin&quot;">
+					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.907018451." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.base.582100381" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.PE" id="cdt.managedbuild.target.gnu.platform.mingw.base.1650194462" name="Debug Platform" osList="win32" superClass="cdt.managedbuild.target.gnu.platform.mingw.base"/>
+							<builder buildPath="${workspace_loc:/cwsw_board}/Debug" id="cdt.managedbuild.builder.gnu.cross.1771124524" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.base.1737252301" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.base">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1203394504" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.753629736" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base.1039989994" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base">
+								<option id="gnu.cpp.compiler.option.optimization.level.1076303292" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.158890677" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1110815961" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base">
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.2043627469" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="&quot;XPRJ_Win_MinGW_${ConfigName}=1&quot;"/>
+								</option>
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.126102417" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.1674090999" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.523822809" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/cfg&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/cwsw_lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/cwsw-arch/i386&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.dialect.std.923363755" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.dialect.flags.1009205879" name="Other dialect flags" superClass="gnu.c.compiler.option.dialect.flags" useByScannerDiscovery="true" value="-std=gnu11" valueType="string"/>
+								<option id="gnu.c.compiler.option.warnings.wconversion.80110280" name="Implicit conversion warnings (-Wconversion)" superClass="gnu.c.compiler.option.warnings.wconversion" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.warnings.extrawarn.2057238441" name="Extra warnings (-Wextra)" superClass="gnu.c.compiler.option.warnings.extrawarn" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.warnings.pedantic.1090043279" name="Pedantic (-pedantic)" superClass="gnu.c.compiler.option.warnings.pedantic" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1130681980" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.base.281207857" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.base">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.675670101" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base.1153232726" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="ut/ut_arch/cwsw_arch_test.c|ut/ut_lib/cwsw_lib_test.c|cwsw_board/pic32mz_efm_sk" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.exe.release.1367042527">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.exe.release.1367042527" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.release.1367042527" name="Release" parent="cdt.managedbuild.config.gnu.exe.release">
+					<folderInfo id="cdt.managedbuild.config.gnu.exe.release.1367042527." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.release.2071306003" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.release">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.exe.release.1220246709" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.release"/>
+							<builder buildPath="${workspace_loc:/cwsw_board}/Release" id="cdt.managedbuild.target.gnu.builder.exe.release.1102526923" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.337398875" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1040163876" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release">
+								<option id="gnu.cpp.compiler.exe.release.option.optimization.level.299999642" name="Optimization Level" superClass="gnu.cpp.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.exe.release.option.debugging.level.463602916" name="Debug Level" superClass="gnu.cpp.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.release.1068967362" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.exe.release.option.optimization.level.1465245175" name="Optimization Level" superClass="gnu.c.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.exe.release.option.debugging.level.617820065" name="Debug Level" superClass="gnu.c.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1369754142" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="&quot;XPRJ_${ConfigName}=1&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;XPRJ_${ConfigName}_Win_MinGW=1&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;XPRJ_Win_MinGW_${ConfigName}=1&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.include.paths.846850160" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/cfg&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${ProjDirPath/cwsw_lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/cwsw-arch/i386&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.20447800" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.exe.release.1622173608" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.release">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.57125314" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.exe.release.599911415" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.exe.release.600635864" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.release">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1875781684" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.exe.debug.907018451.1785641400">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.exe.debug.907018451.1785641400" moduleId="org.eclipse.cdt.core.settings" name="Debug_Win_MinGW">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="exe" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="Development and debugging on Windows, using MinGW" errorParsers="org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.VCErrorParser" id="cdt.managedbuild.config.gnu.exe.debug.907018451.1785641400" name="Debug_Win_MinGW" parent="cdt.managedbuild.config.gnu.exe.debug">
+					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.907018451.1785641400." name="/" resourcePath="">
+						<toolChain errorParsers="" id="cdt.managedbuild.toolchain.gnu.mingw.base.1080711328" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.PE" id="cdt.managedbuild.target.gnu.platform.mingw.base.979973607" name="Debug Platform" osList="win32" superClass="cdt.managedbuild.target.gnu.platform.mingw.base"/>
+							<builder buildPath="${workspace_loc:/cwsw_board}/Debug_Win_MinGW" errorParsers="" id="org.eclipse.cdt.build.core.internal.builder.1101141063" keepEnvironmentInBuildfile="false" name="CDT Internal Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="org.eclipse.cdt.build.core.internal.builder"/>
+							<tool errorParsers="org.eclipse.cdt.core.GASErrorParser" id="cdt.managedbuild.tool.gnu.assembler.mingw.base.1871306346" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.base">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1368556721" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.1657088403" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base.1525725268" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base">
+								<option id="gnu.cpp.compiler.option.optimization.level.534606575" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.762078084" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool errorParsers="org.eclipse.cdt.core.GCCErrorParser" id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1227239049" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base">
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.806947610" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="&quot;XPRJ_${ConfigName}=1&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;XPRJ_Debug_Win_MinGW=1 /* INTENDED ONLY FOR WITHIN-ECLIPSE DEV; NOT FOR PRODUCTION */&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;XPRJ_${ConfigName}_Win_MinGW=1&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;XPRJ_Win_MinGW_${ConfigName}=1&quot;"/>
+								</option>
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.1695332674" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.1266604629" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.dialect.std.416683314" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.dialect.flags.1460693747" name="Other dialect flags" superClass="gnu.c.compiler.option.dialect.flags" useByScannerDiscovery="true" value="-std=gnu11" valueType="string"/>
+								<option id="gnu.c.compiler.option.warnings.wconversion.1485402724" name="Implicit conversion warnings (-Wconversion)" superClass="gnu.c.compiler.option.warnings.wconversion" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.warnings.extrawarn.920302957" name="Extra warnings (-Wextra)" superClass="gnu.c.compiler.option.warnings.extrawarn" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.warnings.pedantic.2129534066" name="Pedantic (-pedantic)" superClass="gnu.c.compiler.option.warnings.pedantic" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.include.paths.347299176" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/cwsw_board/cwsw_board/none}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/cwsw_board/cwsw_lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/cwsw_board/ut}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/cwsw_board/cwsw_arch/i386}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/cfg&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../${ProjDirPath/cwsw_lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/cwsw-arch/i386&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2072253529" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool errorParsers="org.eclipse.cdt.core.GLDErrorParser" id="cdt.managedbuild.tool.gnu.c.linker.mingw.base.1427234908" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.base">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.690697631" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base.2130482199" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="cwsw_board/mpc5748g_devkit|cwsw_arch/pic32mz|cwsw_arch/MPC57xx|cwsw_board/pic32mz_efm_sk" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.exe.debug.907018451.1785641400.1543822552">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.exe.debug.907018451.1785641400.1543822552" moduleId="org.eclipse.cdt.core.settings" name="Debug_XC_MPC57xx_DevKit">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ProjName}" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="Development and debugging on Windows and Linux desktop, using NXP Build Tools" errorParsers="org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.VCErrorParser" id="cdt.managedbuild.config.gnu.exe.debug.907018451.1785641400.1543822552" name="Debug_XC_MPC57xx_DevKit" parent="cdt.managedbuild.config.gnu.exe.debug">
+					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.907018451.1785641400.1543822552." name="/" resourcePath="">
+						<toolChain id="com.freescale.s32ds.cross.gnu.e200.toolChain.851359982" name="Standard S32DS toolchain for E200">
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.compiler.path.1325664556" name="Path" superClass="com.freescale.s32ds.cross.gnu.e200.option.compiler.path"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.command.prefix.1771493397" name="Prefix" superClass="com.freescale.s32ds.cross.gnu.e200.option.command.prefix"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.command.ar.923232776" name="Archiver" superClass="com.freescale.s32ds.cross.gnu.e200.option.command.ar"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.command.objcopy.1521070852" name="Hex/Bin converter" superClass="com.freescale.s32ds.cross.gnu.e200.option.command.objcopy"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.addtools.printsize.760711667" name="Print size" superClass="com.freescale.s32ds.cross.gnu.e200.option.addtools.printsize"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.command.size.874501596" name="Size command" superClass="com.freescale.s32ds.cross.gnu.e200.option.command.size"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.command.objdump.886777143" name="Listing generator" superClass="com.freescale.s32ds.cross.gnu.e200.option.command.objdump"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.addtools.createflash.689196842" name="Create flash image" superClass="com.freescale.s32ds.cross.gnu.e200.option.addtools.createflash"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.addtools.createlisting.1351097849" name="Create extended listing" superClass="com.freescale.s32ds.cross.gnu.e200.option.addtools.createlisting"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.addtools.spt.assembler.593567241" name="SPT tools enablement" superClass="com.freescale.s32ds.cross.gnu.e200.option.addtools.spt.assembler"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.spt.path.1460469760" name="SPT tools path" superClass="com.freescale.s32ds.cross.gnu.e200.option.spt.path"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.disabled_hosted.920798431" name="disabled_hosted" superClass="com.freescale.s32ds.cross.gnu.e200.disabled_hosted"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.family.1236054859" name="Target processor" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.family"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.mvle.424771907" name="VLE mode" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.mvle"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.mregnames.941533983" name="Allow symbolic names for registers" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.mregnames"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.endianness.1056370198" name="Machine endianness" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.endianness"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.fp.hard.1220239818" name="Use hardware floating point" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.fp.hard"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.libraries.1688997146" name="Libraries support" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.libraries" value="com.freescale.s32ds.cross.gnu.e200.option.target.libraries.newlib_noio" valueType="enumerated"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.sp.1170157474" name="Signal Processing" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.sp"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.sysroot.1412411658" name="Sysroot" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.sysroot" value="--sysroot=&quot;${VLE_NEWLIB_DIR}/newlib&quot;" valueType="string"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.1124274272" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/cwsw_board}/Debug_XC_MPC57xx_DevKit" id="com.freescale.s32ds.cross.gnu.builder.2008588241" keepEnvironmentInBuildfile="false" name="FSL Make Builder"/>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.907018451.1785641400.1543822552.1612493612" name="/" resourcePath="cwsw_arch/i386">
+						<toolChain id="com.freescale.s32ds.cross.gnu.e200.toolChain.222117620" name="Standard S32DS toolchain for E200" unusedChildren="">
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.compiler.path.1325664556.212450857" name="Path" superClass="com.freescale.s32ds.cross.gnu.e200.option.compiler.path.1325664556"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.command.prefix.1771493397.796263181" name="Prefix" superClass="com.freescale.s32ds.cross.gnu.e200.option.command.prefix.1771493397"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.command.ar.923232776.928178014" name="Archiver" superClass="com.freescale.s32ds.cross.gnu.e200.option.command.ar.923232776"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.command.objcopy.1521070852.984812935" name="Hex/Bin converter" superClass="com.freescale.s32ds.cross.gnu.e200.option.command.objcopy.1521070852"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.addtools.printsize.760711667.232890925" name="Print size" superClass="com.freescale.s32ds.cross.gnu.e200.option.addtools.printsize.760711667"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.command.size.874501596.248043761" name="Size command" superClass="com.freescale.s32ds.cross.gnu.e200.option.command.size.874501596"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.command.objdump.886777143.1727980964" name="Listing generator" superClass="com.freescale.s32ds.cross.gnu.e200.option.command.objdump.886777143"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.addtools.createflash.689196842.1402194056" name="Create flash image" superClass="com.freescale.s32ds.cross.gnu.e200.option.addtools.createflash.689196842"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.addtools.createlisting.1351097849.1994173753" name="Create extended listing" superClass="com.freescale.s32ds.cross.gnu.e200.option.addtools.createlisting.1351097849"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.addtools.spt.assembler.593567241.1153960197" name="SPT tools enablement" superClass="com.freescale.s32ds.cross.gnu.e200.option.addtools.spt.assembler.593567241"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.spt.path.1460469760.1906226045" name="SPT tools path" superClass="com.freescale.s32ds.cross.gnu.e200.option.spt.path.1460469760"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.disabled_hosted.920798431.2009268159" name="disabled_hosted" superClass="com.freescale.s32ds.cross.gnu.e200.disabled_hosted.920798431"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.family.1236054859.2022887489" name="Target processor" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.family.1236054859"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.mvle.424771907.811003171" name="VLE mode" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.mvle.424771907"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.mregnames.941533983.191105145" name="Allow symbolic names for registers" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.mregnames.941533983"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.endianness.1056370198.288414914" name="Machine endianness" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.endianness.1056370198"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.fp.hard.1220239818.2076536811" name="Use hardware floating point" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.fp.hard.1220239818"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.libraries.1688997146.780027482" name="Libraries support" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.libraries.1688997146"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.sp.1170157474.997787530" name="Signal Processing" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.sp.1170157474"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.sysroot.1412411658.1582088407" name="Sysroot" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.sysroot.1412411658"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="cwsw_board/none|cwsw_arch/i386|cwsw_arch/pic32mz|cwsw_board/pic32mz_efm_sk" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="cwsw_board.cdt.managedbuild.target.gnu.exe.1008657737" name="Executable" projectType="cdt.managedbuild.target.gnu.exe"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/cwsw_board"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/cwsw_board"/>
+		</configuration>
+		<configuration configurationName="Debug_Win_MinGW">
+			<resource resourceType="PROJECT" workspacePath="/cwsw_board"/>
+		</configuration>
+		<configuration configurationName="Debug_XC_MPC57xx_DevKit">
+			<resource resourceType="PROJECT" workspacePath="/cwsw_board"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.907018451.1785641400.1543822552;cdt.managedbuild.config.gnu.exe.debug.907018451.1785641400.1543822552.;com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.1558685814;cdt.managedbuild.tool.gnu.c.compiler.input.1399420310">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.907018451.1785641400;cdt.managedbuild.config.gnu.exe.debug.907018451.1785641400.;cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1227239049;cdt.managedbuild.tool.gnu.c.compiler.input.2072253529">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.907018451;cdt.managedbuild.config.gnu.exe.debug.907018451.;cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1110815961;cdt.managedbuild.tool.gnu.c.compiler.input.1130681980">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.907018451.1785641400.1543822552;cdt.managedbuild.config.gnu.exe.debug.907018451.1785641400.1543822552.;cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1676901019;cdt.managedbuild.tool.gnu.c.compiler.input.1110068498">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.1367042527;cdt.managedbuild.config.gnu.exe.release.1367042527.;cdt.managedbuild.tool.gnu.c.compiler.exe.release.1068967362;cdt.managedbuild.tool.gnu.c.compiler.input.20447800">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.907018451;cdt.managedbuild.config.gnu.exe.debug.907018451.;cdt.managedbuild.tool.gnu.c.compiler.exe.debug.795841542;cdt.managedbuild.tool.gnu.c.compiler.input.876420868">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>

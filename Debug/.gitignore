@@ -1,0 +1,7 @@
+/app/
+/cwsw-arch/
+/cwsw_lib/
+/ut/
+/makefile
+/objects.mk
+/sources.mk
