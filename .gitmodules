@@ -7,3 +7,6 @@
 [submodule "doc/doc_board"]
 	path = doc/doc_board
 	url = git@github.com:kbecker0619/cwsw_board_doc.git
+[submodule "ut/ut_lib"]
+	path = ut/ut_lib
+	url = git@github.com:kbecker0619/cwsw_lib_ut.git
