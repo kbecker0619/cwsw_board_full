@@ -10,3 +10,6 @@
 [submodule "ut/ut_lib"]
 	path = ut/ut_lib
 	url = git@github.com:kbecker0619/cwsw_lib_ut.git
+[submodule "ut/ut_arch"]
+	path = ut/ut_arch
+	url = git@github.com:kbecker0619/cwsw_arch_ut.git

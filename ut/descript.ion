@@ -1,3 +1,4 @@
 descript.ion 7-Zip file that provides file commentary
 readme.md This folder contains the unit tests for all included components
+ut_arch GIT submodule: Unit Test sources for the lib component
 ut_lib GIT submodule: Unit Test sources for the lib component
