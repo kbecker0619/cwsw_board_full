@@ -1,0 +1,4 @@
+descript.ion 7-Zip file that provides file commentary
+doc_arch GIT Submodule: Documentation for the CWSW Arch component
+doc_board GIT Submodule: Documentation for the CWSW Board Support component
+doc_lib GIT Submodule: Documentation for the CWSW Lib component

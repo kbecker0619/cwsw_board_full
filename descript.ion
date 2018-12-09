@@ -1,0 +1,8 @@
+app "Main" definition for dummy component application
+build NetBeans build folder
+cfg Project-specific configuration headers
+Debug Eclipse build folder
+dist NetBeans output  folder
+doc Documentation folder for this component
+nbproject NetBeans project folder
+ut Unit Test sources
