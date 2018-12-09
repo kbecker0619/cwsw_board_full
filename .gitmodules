@@ -13,3 +13,6 @@
 [submodule "ut/ut_arch"]
 	path = ut/ut_arch
 	url = git@github.com:kbecker0619/cwsw_arch_ut.git
+[submodule "ut/ut_board"]
+	path = ut/ut_board
+	url = git@github.com:kbecker0619/cwsw_board_ut.git
