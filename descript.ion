@@ -1,7 +1,9 @@
 app "Main" definition for dummy component application
 build NetBeans build folder
 cfg Project-specific configuration headers
+cwsw_lib GIT submodule: support library used for UT
 Debug Eclipse build folder
+descript.ion 7-Zip file that provides file commentary
 dist NetBeans output  folder
 doc Documentation folder for this component
 nbproject NetBeans project folder

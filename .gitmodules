@@ -16,3 +16,6 @@
 [submodule "ut/ut_board"]
 	path = ut/ut_board
 	url = git@github.com:kbecker0619/cwsw_board_ut.git
+[submodule "cwsw_lib"]
+	path = cwsw_lib
+	url = git@github.com:kbecker0619/cwsw_lib_code.git
