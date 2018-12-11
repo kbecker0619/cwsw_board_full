@@ -112,17 +112,17 @@ extern "C" {
 	/* The 1st is intended to debug on a PowerPC Target from a Linux development environment */
 	/* The 2nd (Desktop) is intended for building within S32DS on Linux for a Linux debugging session */
 	#define	XPRJ_Debug_CVI				0
-	#define	XPRJ_Debug_MSC				0
+	#define	XPRJ_MSVC_Debug				0
 	#define	XPRJ_Win_MinGW_Debug 		0
 
 #elif defined(_CVI_)
 	#define	XPRJ_Debug_CVI				1
-	#define	XPRJ_Debug_MSC				0
+	#define	XPRJ_MSVC_Debug				0
 	#define	XPRJ_Win_MinGW_Debug 		0
 	#define XPRJ_Debug_Linux_GCC		0
 	#define XPRJ_pic32mz_ef_sk			0
 
-#elif (XPRJ_Debug_MSC)
+#elif (XPRJ_MSVC_Debug)
 	/* Visual Studio 8, which is decidedly shy of C11 */
 	/* NOTE: VS8 does not ship w/ headers <stdint.h> or <stdbool.h>, so i found alternate versions
 	 * and copied them into my install directory. i happened to find some web sites w/ versions
@@ -140,7 +140,7 @@ extern "C" {
 	#define XPRJ_Win_MinGW_Debug		0
 	#define XPRJ_Debug_Linux_GCC		0
 	#define	XPRJ_Debug_CVI				0
-	#define XPRJ_Debug_MSC				0
+	#define XPRJ_MSVC_Debug				0
 
 #elif (XPRJ_Debug_Cx_AtmelSamv71)
 	/* This configuration is intended for the Atmel SAMV71 Xplained Ultra board */
@@ -152,7 +152,7 @@ extern "C" {
 	#define XPRJ_Win_MinGW_Debug		(0)
 	#define XPRJ_Debug_Linux_GCC		(0)
 	#define	XPRJ_Debug_CVI				(0)
-	#define XPRJ_Debug_MSC				(0)
+	#define XPRJ_MSVC_Debug				0
 	#define Debug_MZ2048EFM				(0)
 
 #else
@@ -246,13 +246,17 @@ extern "C" {
  *	define. Pick reasonable defaults if not defined.
  */
 #if !defined(BUILD_FOR_UNIT_TEST)
-	#if (XPRJ_Debug_Linux_GCC) || (XPRJ_Win_MinGW_Debug) || (XPRJ_Debug_MSC) || (XPRJ_Debug_CVI)
+	#if (XPRJ_Debug_Linux_GCC) || (XPRJ_Win_MinGW_Debug) || (XPRJ_MSVC_Debug) || (XPRJ_Debug_CVI)
 		#define BUILD_FOR_UNIT_TEST		(true)
 
 	#else
+#error
 		#define BUILD_FOR_UNIT_TEST		(false)
 
 	#endif
+#else
+#error
+
 #endif
 
 // ==== /PROJECT SPECIFIC CONSTANTS ========================================= }
