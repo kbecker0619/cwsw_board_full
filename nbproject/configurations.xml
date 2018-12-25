@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="cwsw_arch" displayName="cwsw_arch" projectFiles="true">
+      <logicalFolder name="i386" displayName="i386" projectFiles="true">
+        <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
+          <logicalFolder name="ports" displayName="ports" projectFiles="true">
+            <itemPath>cwsw_arch/i386/peripheral/ports/ports_api.c</itemPath>
+            <itemPath>cwsw_arch/i386/peripheral/ports/ports_api.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <itemPath>cwsw_arch/i386/src/cwsw_arch.c</itemPath>
+          <itemPath>cwsw_arch/i386/src/descript.ion</itemPath>
+        </logicalFolder>
+        <logicalFolder name="system" displayName="system" projectFiles="true">
+          <logicalFolder name="clk" displayName="clk" projectFiles="true">
+            <itemPath>cwsw_arch/i386/system/clk/sys_clk.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="ports" displayName="ports" projectFiles="true">
+            <itemPath>cwsw_arch/i386/system/ports/sys_ports.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <itemPath>cwsw_arch/i386/README.md</itemPath>
+        <itemPath>cwsw_arch/i386/cwsw_arch.h</itemPath>
+        <itemPath>cwsw_arch/i386/descript.ion</itemPath>
+      </logicalFolder>
+      <itemPath>cwsw_arch/.gitignore</itemPath>
+      <itemPath>cwsw_arch/LICENSE</itemPath>
+      <itemPath>cwsw_arch/README.md</itemPath>
+      <itemPath>cwsw_arch/cwsw_arch_common.h</itemPath>
+      <itemPath>cwsw_arch/descript.ion</itemPath>
+    </logicalFolder>
+    <logicalFolder name="cwsw_board" displayName="cwsw_board" projectFiles="true">
+      <logicalFolder name="none" displayName="none" projectFiles="true">
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <itemPath>cwsw_board/none/src/cwsw_board.c</itemPath>
+        </logicalFolder>
+        <itemPath>cwsw_board/none/cwsw_board.h</itemPath>
+        <itemPath>cwsw_board/none/descript.ion</itemPath>
+        <itemPath>cwsw_board/none/readme.md</itemPath>
+      </logicalFolder>
+      <itemPath>cwsw_board/.gitignore</itemPath>
+      <itemPath>cwsw_board/LICENSE</itemPath>
+      <itemPath>cwsw_board/cwsw_board_common.h</itemPath>
+      <itemPath>cwsw_board/descript.ion</itemPath>
+      <itemPath>cwsw_board/readme.md</itemPath>
+    </logicalFolder>
+    <logicalFolder name="cwsw_lib" displayName="cwsw_lib" projectFiles="true">
+      <logicalFolder name="include" displayName="include" projectFiles="true">
+        <itemPath>cwsw_lib/include/descript.ion</itemPath>
+        <itemPath>cwsw_lib/include/ptypes.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <itemPath>cwsw_lib/src/cwsw_lib.c</itemPath>
+      </logicalFolder>
+      <itemPath>cwsw_lib/.gitignore</itemPath>
+      <itemPath>cwsw_lib/LICENSE</itemPath>
+      <itemPath>cwsw_lib/README.md</itemPath>
+      <itemPath>cwsw_lib/ctassert.h</itemPath>
+      <itemPath>cwsw_lib/cwsw_eventsim.h</itemPath>
+      <itemPath>cwsw_lib/cwsw_lib.h</itemPath>
+      <itemPath>cwsw_lib/descript.ion</itemPath>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="cfg" displayName="cfg" projectFiles="true">
+        <itemPath>cfg/projcfg.h</itemPath>
+        <itemPath>cfg/projevtnames.h</itemPath>
+        <itemPath>cfg/readme.md</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="app" displayName="app" projectFiles="true">
+        <itemPath>app/main.c</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ut" displayName="ut" projectFiles="true">
+      <logicalFolder name="ut_arch" displayName="ut_arch" projectFiles="true">
+        <itemPath>ut/ut_arch/.gitignore</itemPath>
+        <itemPath>ut/ut_arch/LICENSE</itemPath>
+        <itemPath>ut/ut_arch/README.md</itemPath>
+        <itemPath>ut/ut_arch/cwsw_arch_test.c</itemPath>
+        <itemPath>ut/ut_arch/descript.ion</itemPath>
+      </logicalFolder>
+      <logicalFolder name="ut_board" displayName="ut_board" projectFiles="true">
+        <itemPath>ut/ut_board/.gitignore</itemPath>
+        <itemPath>ut/ut_board/LICENSE</itemPath>
+        <itemPath>ut/ut_board/README.md</itemPath>
+        <itemPath>ut/ut_board/descript.ion</itemPath>
+      </logicalFolder>
+      <logicalFolder name="ut_lib" displayName="ut_lib" projectFiles="true">
+        <itemPath>ut/ut_lib/.gitignore</itemPath>
+        <itemPath>ut/ut_lib/LICENSE</itemPath>
+        <itemPath>ut/ut_lib/README.md</itemPath>
+        <itemPath>ut/ut_lib/cwsw_lib_test.c</itemPath>
+        <itemPath>ut/ut_lib/descript.ion</itemPath>
+      </logicalFolder>
+      <itemPath>ut/descript.ion</itemPath>
+      <itemPath>ut/readme.md</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>app</Elem>
+    <Elem>cfg</Elem>
+    <Elem>cwsw_arch</Elem>
+    <Elem>cwsw_board</Elem>
+    <Elem>cwsw_lib</Elem>
+    <Elem>ut</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>Cygwin|Cygwin</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <standard>10</standard>
+          <incDir>
+            <pElem>cfg</pElem>
+            <pElem>cwsw_lib</pElem>
+            <pElem>cwsw_arch/i386</pElem>
+            <pElem>cwsw_board/none</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>XPRJ_NB_${CONF}</Elem>
+          </preprocessorList>
+          <warningLevel>2</warningLevel>
+        </cTool>
+      </compileType>
+      <item path="app/main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cfg/projcfg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cfg/projevtnames.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cfg/readme.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_arch/.gitignore" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_arch/LICENSE" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_arch/README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_arch/cwsw_arch_common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_arch/descript.ion" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_arch/i386/README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_arch/i386/cwsw_arch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_arch/i386/descript.ion" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_arch/i386/peripheral/ports/ports_api.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="cwsw_arch/i386/peripheral/ports/ports_api.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="cwsw_arch/i386/src/cwsw_arch.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cwsw_arch/i386/src/descript.ion" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_arch/i386/system/clk/sys_clk.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="cwsw_arch/i386/system/ports/sys_ports.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="cwsw_board/.gitignore" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_board/LICENSE" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_board/cwsw_board_common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_board/descript.ion" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_board/none/cwsw_board.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_board/none/descript.ion" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_board/none/readme.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_board/none/src/cwsw_board.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cwsw_board/readme.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_lib/.gitignore" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_lib/LICENSE" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_lib/README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_lib/ctassert.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_lib/cwsw_eventsim.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_lib/cwsw_lib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_lib/descript.ion" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_lib/include/descript.ion" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_lib/include/ptypes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_lib/src/cwsw_lib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ut/descript.ion" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/readme.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_arch/.gitignore" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_arch/LICENSE" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_arch/README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_arch/cwsw_arch_test.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ut/ut_arch/descript.ion" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_board/.gitignore" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_board/LICENSE" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_board/README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_board/descript.ion" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_lib/.gitignore" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_lib/LICENSE" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_lib/README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_lib/cwsw_lib_test.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ut/ut_lib/descript.ion" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>Cygwin|Cygwin</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="app/main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cfg/projcfg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cfg/projevtnames.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cfg/readme.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_arch/.gitignore" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_arch/LICENSE" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_arch/README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_arch/cwsw_arch_common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_arch/descript.ion" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_arch/i386/README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_arch/i386/cwsw_arch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_arch/i386/descript.ion" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_arch/i386/peripheral/ports/ports_api.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="cwsw_arch/i386/peripheral/ports/ports_api.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="cwsw_arch/i386/src/cwsw_arch.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cwsw_arch/i386/src/descript.ion" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_arch/i386/system/clk/sys_clk.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="cwsw_arch/i386/system/ports/sys_ports.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="cwsw_board/.gitignore" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_board/LICENSE" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_board/cwsw_board_common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_board/descript.ion" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_board/none/cwsw_board.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_board/none/descript.ion" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_board/none/readme.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_board/none/src/cwsw_board.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cwsw_board/readme.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_lib/.gitignore" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_lib/LICENSE" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_lib/README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_lib/ctassert.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_lib/cwsw_eventsim.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_lib/cwsw_lib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_lib/descript.ion" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_lib/include/descript.ion" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_lib/include/ptypes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cwsw_lib/src/cwsw_lib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ut/descript.ion" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/readme.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_arch/.gitignore" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_arch/LICENSE" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_arch/README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_arch/cwsw_arch_test.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ut/ut_arch/descript.ion" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_board/.gitignore" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_board/LICENSE" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_board/README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_board/descript.ion" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_lib/.gitignore" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_lib/LICENSE" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_lib/README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ut/ut_lib/cwsw_lib_test.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ut/ut_lib/descript.ion" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
