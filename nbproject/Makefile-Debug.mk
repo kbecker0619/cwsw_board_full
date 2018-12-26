@@ -113,15 +113,15 @@ ${OBJECTDIR}/cwsw_lib/src/cwsw_lib.o: cwsw_lib/src/cwsw_lib.c
 
 ${TESTDIR}/TestFiles/f2: ${TESTDIR}/ut/ut_arch/cwsw_arch_test.o ${OBJECTFILES:%.o=%_nomain.o}
 	${MKDIR} -p ${TESTDIR}/TestFiles
-	${LINK.c} -o ${TESTDIR}/TestFiles/f2 $^ ${LDLIBSOPTIONS}   `pkg-config --libs cunit`   -l-lcunit 
+	${LINK.c} -o ${TESTDIR}/TestFiles/f2 $^ ${LDLIBSOPTIONS}   -lcunit 
 
 ${TESTDIR}/TestFiles/f1: ${OBJECTFILES:%.o=%_nomain.o}
 	${MKDIR} -p ${TESTDIR}/TestFiles
-	${LINK.c} -o ${TESTDIR}/TestFiles/f1 -s $^ ${LDLIBSOPTIONS}   `pkg-config --libs cunit`   
+	${LINK.c} -o ${TESTDIR}/TestFiles/f1 -s $^ ${LDLIBSOPTIONS}   -lcunit 
 
 ${TESTDIR}/TestFiles/f3: ${TESTDIR}/ut/ut_lib/cwsw_lib_test.o ${OBJECTFILES:%.o=%_nomain.o}
 	${MKDIR} -p ${TESTDIR}/TestFiles
-	${LINK.c} -o ${TESTDIR}/TestFiles/f3 $^ ${LDLIBSOPTIONS}   `pkg-config --libs cunit`   
+	${LINK.c} -o ${TESTDIR}/TestFiles/f3 $^ ${LDLIBSOPTIONS}   -lcunit 
 
 
 ${TESTDIR}/ut/ut_arch/cwsw_arch_test.o: ut/ut_arch/cwsw_arch_test.c 

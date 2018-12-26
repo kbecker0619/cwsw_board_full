@@ -15,7 +15,6 @@
                 <sourceRootElem>cwsw_arch</sourceRootElem>
                 <sourceRootElem>cwsw_board</sourceRootElem>
                 <sourceRootElem>cwsw_lib</sourceRootElem>
-                <sourceRootElem>ut</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>

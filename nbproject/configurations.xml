@@ -120,7 +120,6 @@
     <Elem>cwsw_arch</Elem>
     <Elem>cwsw_board</Elem>
     <Elem>cwsw_lib</Elem>
-    <Elem>ut</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -129,6 +128,7 @@
         <compilerSet>Cygwin|Cygwin</compilerSet>
         <dependencyChecking>true</dependencyChecking>
         <rebuildPropChanged>false</rebuildPropChanged>
+        <prependToolCollectionPath>false</prependToolCollectionPath>
       </toolsSet>
       <compileType>
         <cTool>
@@ -231,13 +231,6 @@
       </item>
       <item path="cwsw_lib/src/cwsw_lib.c" ex="false" tool="0" flavor2="0">
       </item>
-      <folder path="TestFiles">
-        <linkerTool>
-          <linkerLibItems>
-            <linkerOptionItem>`pkg-config --libs cunit`</linkerOptionItem>
-          </linkerLibItems>
-        </linkerTool>
-      </folder>
       <folder path="TestFiles/f1">
         <cTool>
           <incDir>
@@ -252,6 +245,9 @@
         <linkerTool>
           <output>${TESTDIR}/TestFiles/f1</output>
           <stripSymbols>true</stripSymbols>
+          <linkerLibItems>
+            <linkerLibLibItem>cunit</linkerLibLibItem>
+          </linkerLibItems>
         </linkerTool>
       </folder>
       <folder path="TestFiles/f2">
@@ -268,7 +264,7 @@
         <linkerTool>
           <output>${TESTDIR}/TestFiles/f2</output>
           <linkerLibItems>
-            <linkerLibLibItem>-lcunit</linkerLibLibItem>
+            <linkerLibLibItem>cunit</linkerLibLibItem>
           </linkerLibItems>
         </linkerTool>
       </folder>
@@ -285,6 +281,9 @@
         </ccTool>
         <linkerTool>
           <output>${TESTDIR}/TestFiles/f3</output>
+          <linkerLibItems>
+            <linkerLibLibItem>cunit</linkerLibLibItem>
+          </linkerLibItems>
         </linkerTool>
       </folder>
       <item path="ut/ut_arch/.gitignore" ex="false" tool="3" flavor2="0">
