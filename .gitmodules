@@ -21,7 +21,7 @@
 	url = git@github.com:kbecker0619/cwsw_lib_code.git
 [submodule "cwsw_board"]
 	path = cwsw_board
-	url = git@github.com:kbecker0619/cwsw_board_code.git
+	url = git@github.com:kbecker0619/cwsw_board.git
 [submodule "cwsw-arch"]
 	path = cwsw_arch
 	url = git@github.com:kbecker0619/cwsw_arch_code.git
